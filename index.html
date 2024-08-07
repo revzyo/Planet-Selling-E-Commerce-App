@@ -67,6 +67,18 @@
             justify-content: space-evenly;
             align-items: center;
             margin: 0px 150px;
+            flex-wrap: wrap;
+        }
+        main h2{
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        main p{
+            font-size: 14px;
+            font-weight: 200;
+            line-height: 31px;
+            margin: 30px 0px;
+
         }
         .contentleft{
             flex: 1;
@@ -76,10 +88,26 @@
         }
         .contentright{
             flex: 1;
+            margin-left: 10px;
         }
         .merc{
             max-width: 300px;
             height: auto;
+        }
+        .btn{
+            padding: 15px 30px;
+            color: black;
+            background-color: white;
+            outline: none;
+            border: none;
+            border-radius: 50px;
+            font-weight: 1000;
+            margin-top: 20px;
+        }
+        .btn:hover{
+            background-color: #2c2c2c;
+            color: white;
+            border: 2px solid white;
         }
 
     </style>
@@ -103,13 +131,13 @@
     <main>
         <div class="contentleft">
             <h2>Mercury</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quaerat tempore, nesciunt reiciendis omnis ab non minus a ad autem!</p>
+            
         </div>
 
         <div class="contentmid">
-            <h2>Venus</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse blanditiis facilis, obcaecati eaque nulla et est voluptatem deserunt ullam voluptas!</p>
-
+            <h2>INTRODUCTION</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad a similique esse rem maxime repellendus recusandae culpa quia minus labore obcaecati, quas impedit expedita perferendis beatae accusantium quasi quo provident! Odio fugit ipsam, suscipit optio vitae laborum excepturi quo mollitia praesentium et cupiditate accusamus impedit incidunt consectetur quis dicta repellat. Iure magnam autem nulla quidem dolores nemo, necessitatibus id vitae.</p>
+            <button class="btn">BUY NOW</button>
         </div>
 
         <div class="contentright">
